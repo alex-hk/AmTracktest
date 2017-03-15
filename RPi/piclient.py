@@ -31,6 +31,5 @@ while 1:
 
     	reply = recv(1024)
     	print reply
-
-
-
+	s.close()
+	exit()
